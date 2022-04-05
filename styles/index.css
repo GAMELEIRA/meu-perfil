@@ -1,5 +1,22 @@
+.iten-navigation {
+    font-size: 16px;
+}
+
 .logo {
     width: 50px;
     height: auto;
 }
 
+.text-paragraph-footer {
+    font-size: 12px;
+    color: gray;
+}
+
+#copyright {
+    width: 100%;
+    height: auto;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -5,8 +5,12 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css" />
   <link rel="stylesheet" href="./styles/global.css" />
   <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
   <link rel="icon" type="imagem/jpg" href="/images/perfil.png" />
   <title>Portfolio profissional Gabriel Gameleira dos Santos</title>
 </head>
@@ -14,15 +18,15 @@
 <body>
   <header>
     <ul>
-      <li><a href="#about">Tudo sobre</a></li>
-      <li><a href="#academic-formation">Formações acadêmicas</a></li>
-      <li><a href="#main-projects">Principais projetos </a></li>
-      <li><a href="#hacktoons">Hacktoons</a></li>
-      <li><a href="#feedback">Feedbacks </a></li>
-      <li><a href="#next-goal">Próximos objetivos </a></li>
-      <li><a href="#leisure">Lazer</a></li>
-      <li><a href="#time-line">Linha do tempo </a></li>
-      <li><a href="#contact-social">Contatos e redes sociais </a></li>
+      <li class="iten-navigation"><a href="#about">Tudo sobre</a></li>
+      <li class="iten-navigation"><a href="#academic-formation">Formações acadêmicas</a></li>
+      <li class="iten-navigation"><a href="#main-projects">Principais projetos </a></li>
+      <li class="iten-navigation"><a href="#hacktoons">Hacktoons</a></li>
+      <li class="iten-navigation"><a href="#feedback">Feedbacks </a></li>
+      <li class="iten-navigation"><a href="#next-goal">Próximos objetivos </a></li>
+      <li class="iten-navigation"><a href="#leisure">Lazer</a></li>
+      <li class="iten-navigation"><a href="#time-line">Linha do tempo </a></li>
+      <li class="iten-navigation"><a href="#contact-social">Contatos e redes sociais </a></li>
     </ul>
   </header>
   <main>
@@ -30,12 +34,12 @@
     <body>
       <section>
         <div>
-          <h1 id="about">Tudo sobre Gabriel Gameleira dos Santos</h1>
+          <h1 id="about" class="main-title">Tudo sobre Gabriel Gameleira dos Santos</h1>
           <img src="./images/meu-avatar.png" />
       </section>
       <hr />
       <section>
-        <h2 id="academic-formation">Formações acadêmicas</h2>
+        <h2 id="academic-formation" class="secondary-title">Formações acadêmicas</h2>
         <ul>
           <li>
             Analise e Desenvolvimento de Sistemas
@@ -50,73 +54,76 @@
       <hr />
       <section>
         <div>
-          <h2 id="main-projects">Principais projetos</h2>
+          <h2 id="main-projects" class="secondary-title">Principais projetos</h2>
         </div>
       </section>
       <hr />
       <section>
         <div>
-          <h2 id="hacktoons">Hacktoons</h2>
+          <h2 id="hacktoons" class="secondary-title">Hacktoons</h2>
         </div>
       </section>
       <hr />
       <section>
         <div>
-          <h2 id="feedback">Feedbacks</h2>
+          <h2 id="feedback" class="secondary-title">Feedbacks</h2>
         </div>
       </section>
       <hr />
       <section>
         <div>
-          <h2 id="next-goal">Próximos objetivos</h2>
+          <h2 id="next-goal" class="secondary-title">Próximos objetivos</h2>
         </div>
       </section>
       <hr />
       <section>
         <div>
-          <h2 id="leisure">Lazer</h2>
+          <h2 id="leisure" class="secondary-title">Lazer</h2>
         </div>
       </section>
       <hr />
       <section>
         <div>
-          <h2 id="time-line">Linha do tempo</h2>
+          <h2 id="time-line" class="secondary-title">Linha do tempo</h2>
         </div>
       </section>
-      <hr />
-      <section>
-        <div>
-          <h2 id="contact-social">Contatos e redes sociais</h2>
-          <ul>
-            <li>
-              <a href="https://wa.me/5511951432568?text=Eu%20tenho%20interesse%20nos%20seus%20serviços%20e%20quero%20contar%20com%20você%20na%20minha%20na%20equipe!"
-                target="blank">
-                <img class="logo" src="./images/whatsApp.png" />
-              </a>
-            </li>
-            <li>
-              <a href="mailto:gameleira270499@gmail.com" target="blank">
-                <img class="logo" src="./images/gmail.png" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/gabriel-gameleira-dos-santos-634b23161/" target="blank"><img
-                  class="logo" src="./images/linkedin.png" /></a>
-            </li>
-            <li>
-              <a href="https://github.com/GAMELEIRA" target="blank"><img class="logo" src="./images/github.png" /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/gamisgamis27/">
-                <img class="logo" src="./images/instagram.png" />
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
     </body>
   </main>
-  <footer></footer>
+  <footer>
+    <section>
+      <div>
+        <h2 id="contact-social" class="secondary-title">Contatos e redes sociais</h2>
+        <ul>
+          <li>
+            <a href="https://wa.me/5511951432568?text=Eu%20tenho%20interesse%20nos%20seus%20serviços%20e%20quero%20contar%20com%20você%20na%20minha%20na%20equipe!"
+              target="blank">
+              <img class="logo" src="./images/whatsApp.png" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:gameleira270499@gmail.com" target="blank">
+              <img class="logo" src="./images/gmail.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gabriel-gameleira-dos-santos-634b23161/" target="blank"><img
+                class="logo" src="./images/linkedin.png" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/GAMELEIRA" target="blank"><img class="logo" src="./images/github.png" /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/gamisgamis27/">
+              <img class="logo" src="./images/instagram.png" />
+            </a>
+          </li>
+        </ul>
+        <div id="copyright">
+          <p class="text-paragraph-footer"> &#169; 2022 Gabriel Gameleira - Todos os direitos reservados</p>
+        </div>
+  </footer>
 </body>
 
 </html>
