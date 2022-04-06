@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.main-title {
+    font-size: 48px;
+    margin: 0px 0px 16px 0px;
+}
+
+.secondary-title {
+    font-size: 40px;
+    margin: 0px 0px 16px 0px;
+}
+
+.other-title {
+    font-size: 32px;
+    margin: 0px 0px 16px 0px;
+}
+
+.text-paragraph {
+    font-size: 24px;
+}
+
+.iten-navigation {
+    font-size: 16px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    color: #ffffff;
+}
