@@ -10,12 +10,6 @@ header {
     align-items: center;
 }
 
-header:{
-    background-color: black;
-    top: 0;
-    position: fixed;
-}
-
 .itens-header {
     display: flex;
     flex-direction: row;
@@ -33,14 +27,6 @@ header:{
     justify-content:flex-start;
     align-items: center;
 }
-
-#message-welcome {
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; */
-}
-
 
 .logo {
     width: 50px;
@@ -82,6 +68,93 @@ header:{
     width: 520px;
     height: 264px;
     box-shadow: 16px 32px 64px 16px #040714;
+}
+
+#cards-projects {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 70%; */
+    /* display: grid;
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+    grid-template-columns: repeat(12, 1fr); */
+/* 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px; */
+    
+}
+
+#simplex-agro {
+    background-image: url('../images/section-main-projects/SimplexAgro1\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 512px;
+    height: 228.85px;
+    margin: 8px;
+    border-radius: 16px;
+    box-shadow: 8px 16px 32px 8px #040714;
+    
+}
+
+#simplex-agro:hover {
+    width: 520px;
+    height: 236.85px;
+    box-shadow: 16px 32px 64px 16px #040714;
+}
+
+#meu-protheus {
+    background-image: url('../images/section-main-projects/event\ viewer\ ios\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 256px;
+    height: 256px;
+    margin: 8px;
+    border-radius: 16px;
+    box-shadow: 8px 16px 32px 8px #040714;
+}
+
+#meu-protheus:hover {
+    width: 262px;
+    height: 262px;
+    box-shadow: 16px 32px 64px 16px #040714;
+}
+
+#minha-prestacao {
+    background-image: url('../images/section-main-projects/event\ viewer\ ios\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 512px;
+    height: 512px;
+    margin: 8px;
+    border-radius: 16px;
+    box-shadow: 8px 16px 32px 8px #040714;
+}
+
+#minha-prestacao:hover {
+    width: 520px;
+    height: 520px;
+    box-shadow: 16px 32px 64px 16px #040714; 
+}
+
+#meu-coletor-de-dados {
+    background-image: url('../images/section-main-projects/acd\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 334px;
+    height: 334px;
+    margin: 8px;
+    border-radius: 16px;
+    box-shadow: 8px 16px 32px 8px #040714;
+}
+
+#meu-coletor-de-dados:hover {
+    width: 342px;
+    height:  342px;
+    box-shadow: 16px 32px 64px 16px #040714; 
 }
 
 footer {
